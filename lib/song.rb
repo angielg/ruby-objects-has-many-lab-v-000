@@ -1,5 +1,6 @@
 class Song
   attr_accessor :name, :artist
+#<<<<<<< HEAD
   @@all = []
   
   def initialize(name)
@@ -18,4 +19,11 @@ class Song
       nil
     end
   end
+#=======
+  
+  def initialize(name)
+    @name = name
+  end
+  
+#>>>>>>> 6a608c221cfd4f2fa7be7ddce2a89484158d093b
 end
